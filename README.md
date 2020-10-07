@@ -81,7 +81,7 @@ var dollar = "1";
 })();
 ```
 
-`(2). 전역과 객체`
+**(2). 전역과 객체**
 ```Javascript
 var dollar = "1";
 
