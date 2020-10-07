@@ -60,7 +60,6 @@ console.dir(Object);
 ```
 
 <details>
-
 <summary>
 	
 ## Scope
