@@ -60,9 +60,9 @@ console.dir(Object);
 ```
 
 <details>
-<h2><summary>Scope</summary></h2>
-<hr>
-
+<h2>Scope</h2>
+<summary>펼쳐서 내용 확인하기</summary>
+	
 > **스코프란**
 
 `스코프`는 변수가 접근할 수 있는 **유효 영역**이며, `자바스크립트`는 스코프를 **함수**로 나눌수 있습니다.<br>
