@@ -71,6 +71,7 @@ console.dir(Object);
 이곳에 다양한 `스코프`의 흐름을 익힐 수 있는 **예제**들을 준비하였습니다,<br>
 **하나하나 코드**를 읽어보며 어떤값이 나올지 판단해보세요. *( Strict 모드 기준 아님 )*
 
+(1). 전역과 지역
 ```Javascript
 var dollar = "1";
 
@@ -80,6 +81,7 @@ var dollar = "1";
 })();
 ```
 
+(2). 전역과 객체
 ```Javascript
 var dollar = "1";
 
