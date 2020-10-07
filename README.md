@@ -62,7 +62,7 @@ console.dir(Object);
 ## Scope
 
 <details>
-<summary>펼쳐서 내용 확인하기</summary>
+<summary>클릭하여 펼쳐서 내용 확인하기</summary>
 	
 > **스코프란**
 
