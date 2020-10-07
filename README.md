@@ -68,6 +68,18 @@ console.dir(Object);
 
 > **예제로 익히기**
 
+이곳에 다양한 스코프의 흐름을 익힐 수 있는 예제들을 준비하였습니다, 하나하나 코드를 읽어보며 어떤값이 나올지 판단해보세요.
+
+```Javascript
+/* Strict 모드 기준이 아닙니다. */
+
+var dollar = "1";
+
+(function Func(){
+	var dollar = "2";
+	console.log(dollar);
+})();
+```
 
 ## This
 ## Bind
