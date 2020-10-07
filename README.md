@@ -59,8 +59,9 @@ console.dir(Object);
   .
 ```
 
+## Scope
+
 <details>
-<h2>Scope</h2>
 <summary>펼쳐서 내용 확인하기</summary>
 	
 > **스코프란**
