@@ -27,6 +27,9 @@
 
 ## Object
 
+<details>
+<summary>클릭하여 펼쳐서 내용 확인하기</summary>
+	
 > **오브젝트란**
 
 `오브젝트(Ojbect)` 한글로는 **객체**,
@@ -58,6 +61,8 @@ console.dir(Object);
   .
   .
 ```
+
+<details>
 
 ## Scope
 
