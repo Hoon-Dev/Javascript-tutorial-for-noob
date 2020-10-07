@@ -62,7 +62,7 @@ console.dir(Object);
 <details>
 <summary>
 
-## Scope ##
+### Scope
 
 </summary>
 
