@@ -60,11 +60,7 @@ console.dir(Object);
 ```
 
 <details>
-<summary>
-
-### Scope
-
-</summary>
+<summary>Scope</summary>
 <hr>
 
 > **스코프란**
