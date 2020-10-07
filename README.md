@@ -29,6 +29,7 @@
 
 <details>
 <summary>클릭하여 펼쳐서 내용 확인하기</summary>
+<br>
 	
 > **오브젝트란**
 
@@ -68,6 +69,7 @@ console.dir(Object);
 
 <details>
 <summary>클릭하여 펼쳐서 내용 확인하기</summary>
+<br>
 	
 > **스코프란**
 
