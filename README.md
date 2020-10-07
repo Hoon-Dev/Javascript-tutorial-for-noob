@@ -80,6 +80,17 @@ var dollar = "1";
 })();
 ```
 
+```Javascript
+var dollar = "1";
+
+({
+	dollar : "2",
+	Func : function(){
+		console.log(dollar);
+	}
+}).Func();
+```
+
 ## This
 ## Bind
 ## Prototype
