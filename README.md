@@ -81,7 +81,16 @@ var dollar = "1";
 })();
 ```
 
-**(2). 전역과 객체**
+**(2). 전역과 파라미터**
+```Javascript
+var dollar = "1";
+
+(function Func(dollar){
+	console.log(dollar);
+})("2");
+```
+
+**(3). 전역과 객체**
 ```Javascript
 var dollar = "1";
 
