@@ -61,7 +61,7 @@ console.dir(Object);
 
 <details>
 <summary>
-Scope
+<h1>Scope</h1>
 </summary>
 
 > **스코프란**
