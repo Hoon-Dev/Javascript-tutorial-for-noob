@@ -48,7 +48,7 @@ console.dir(Object);
 
 그럼 아래와 같이 **트리구조**의 형태로 Object의 내부를 볼 수 있게 됩니다.
 
-```
+```Javascript
 ƒ Object()
   arguments: (...)
   assign: ƒ assign()
@@ -61,6 +61,21 @@ console.dir(Object);
   .
   .
   .
+```
+
+그리고 초반에 말한것 처럼 함수 또한 최종 **프로토타입**을 보면 `오브젝트`를 기반하에 있는걸 볼 수 있습니다.
+
+```Javascript
+console.dir(Function);
+
+ƒ Function()
+	arguments: (...)
+	caller: (...)
+	length: 1
+	name: "Function"
+	prototype: ƒ ()
+	__proto__: ƒ ()
+		__proto__: Object
 ```
 
 </details>
