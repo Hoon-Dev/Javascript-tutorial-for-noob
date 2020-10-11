@@ -117,6 +117,9 @@ var dollar = "1";
 	console.log(dollar);
 })("2");
 ```
+```Javascript
+2
+```
 
 **(3). 전역과 객체**
 ```Javascript
@@ -128,6 +131,9 @@ var dollar = "1";
 		console.log(dollar);
 	}
 }).Func();
+```
+```Javascript
+1
 ```
 
 </details>
@@ -160,6 +166,10 @@ function trans(){
 	console.log(dollar);
 }
 console.log(dollar);
+```
+```Javascript
+2
+3
 ```
 
 </details>
