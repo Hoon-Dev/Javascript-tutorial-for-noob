@@ -127,10 +127,10 @@ var dollar = "1";
 
 ({
 	dollar : "2",
-	Func : function(){
+	func : function(){
 		console.log(dollar);
 	}
-}).Func();
+}).func();
 ```
 ```Javascript
 1
@@ -156,20 +156,38 @@ var dollar = "1";
 
 > **예제로 익히기**
 
-**(1). 단독 함수 호출시**
+**(1). 단독 함수 내부에 있을때**
 ```Javascript
 var dollar = 1;
 
-(function trans(){
+(function Func(){
 	var dollar = 2;
 	this.dollar = 3;
 	console.log(dollar);
 })();
+
 console.log(dollar);
 ```
 ```Javascript
 2
 3
+```
+
+**(2). 객체를 거쳐서 실행될때**
+```Javascript
+var dollar = 1;
+
+({
+	dollar : 2,
+	func : function(){
+		this.dollar = 3;
+	}
+}).func();
+
+console.log(dollar);
+```
+```Javascript
+1
 ```
 
 </details>
