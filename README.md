@@ -192,17 +192,20 @@ console.log(dollar);
 **(3). 콜백으로 넘어가 단독실행시**
 ```Javascript
 var flavor = "Bad!";
+
 function Apple(){
 	this.flavor = "Good!";
 	human.eat(function(){
 		console.log(this.flavor);
 	});
 }
+
 var human = {
 	eat : function(callBack){
 		callBack();
 	}
 }
+
 console.log("Apple is");
 var apple = new Apple();
 
