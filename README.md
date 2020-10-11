@@ -156,7 +156,7 @@ var dollar = "1";
 
 > **예제로 익히기**
 
-**(1). 단독 함수 내부에 있을때**
+**(1). 단독함수로 실행시**
 ```Javascript
 var dollar = 1;
 
@@ -173,7 +173,7 @@ console.log(dollar);
 3
 ```
 
-**(2). 객체를 거쳐서 실행될때**
+**(2). 객체를 거쳐서 실행시**
 ```Javascript
 var dollar = 1;
 
@@ -189,6 +189,8 @@ console.log(dollar);
 ```Javascript
 1
 ```
+
+**(3). 콜백으로 넘어가 단독실행시
 
 </details>
 
