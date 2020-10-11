@@ -205,10 +205,15 @@ var human = {
 }
 console.log("Apple is");
 var apple = new Apple();
+
+console.log("Samsung is");
+console.log(apple.flavor);
 ```
 ```Javascript
 Apple is
 Bad!
+Samsung is
+Good!
 ```
 
 </details>
