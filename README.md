@@ -160,11 +160,11 @@ var dollar = "1";
 ```Javascript
 var dollar = 1;
 
-function trans(){
+(function trans(){
 	var dollar = 2;
 	this.dollar = 3;
 	console.log(dollar);
-}
+})();
 console.log(dollar);
 ```
 ```Javascript
