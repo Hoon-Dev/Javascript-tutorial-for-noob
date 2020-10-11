@@ -105,6 +105,9 @@ var dollar = "1";
 	console.log(dollar);
 })();
 ```
+```Javascript
+2
+```
 
 **(2). 전역과 파라미터**
 ```Javascript
@@ -144,6 +147,20 @@ var dollar = "1";
 
 `This`는 **사용하는** This를 가지고 있는 **함수**를 호출하기 전에 거쳤던 **객체**를 의미합니다.<br>
 *( 위에 말이 가장 핵심 입니다, 이해가 안되면 수십번 읽고 계속해서 학습을 진행하시길 권장합니다. )*
+
+> **예제로 익히기**
+
+**(1). 단독 함수 호출시**
+```Javascript
+var dollar = 1;
+
+function trans(){
+	var dollar = 2;
+	this.dollar = 3;
+	console.log(dollar);
+}
+console.log(dollar);
+```
 
 </details>
 
